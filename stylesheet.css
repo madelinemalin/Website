@@ -6,16 +6,18 @@ header {
   background-color: #f6f4ef;
   color: #004aad;
   text-align: center;
-  padding: 20px;
+  padding: 50px;
 }
 
 main {
   background-color: white;
   color: black;
+  padding: 50px;
 }
 
 footer {
   background-color: #004aad;
   color: white;
   text-align: center;
+  padding: 50px;
 }
