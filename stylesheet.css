@@ -5,6 +5,8 @@ body {
 header {
   background-color: #f6f4ef;
   color: #004aad;
+  text-align: center;
+  padding: 20px;
 }
 
 main {
@@ -15,4 +17,5 @@ main {
 footer {
   background-color: #004aad;
   color: white;
+  text-align: center;
 }
