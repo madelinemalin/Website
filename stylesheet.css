@@ -73,8 +73,7 @@ footer a:hover {
 @media only screen and (min-width: 800px) {
 
   main {
-    max-width: 770px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
