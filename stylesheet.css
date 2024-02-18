@@ -20,6 +20,10 @@ main {
   margin-right: auto;
 }
 
+main a {
+  color: #004aad;
+}
+
 article {
   border-width: 1px;
   border-style: solid;
@@ -34,9 +38,19 @@ figure {
   text-align: center;
 }
 
+nav {
+  text-align: center;
+  
+}
+
 footer {
   background-color: #004aad;
   color: white;
   text-align: center;
   padding: 50px;
 }
+
+footer a {
+  color: white;
+}
+
