@@ -27,6 +27,11 @@ main a {
   color: #004aad;
 }
 
+section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 main a:hover {
   color: blue;
 }
@@ -36,7 +41,7 @@ article {
   border-radius: 10px;
   border-style: solid;
   border-color: #74776b;
-  margin: 10px;
+  margin: 0;
   padding: 10px;
   background-color: #f6f4ef;
 }
