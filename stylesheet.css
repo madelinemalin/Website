@@ -12,6 +12,12 @@ header {
   font-family: "The Seasons", Juana, Ethereal, "URW Americana";
 }
 
+header img {
+  height: 100px;
+  width: auto;
+  border-radius: 50px;
+}
+
 main {
   background-color: white;
   color: black;
