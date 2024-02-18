@@ -17,6 +17,11 @@ main {
   padding: 50px;
 }
 
+figure {
+  margin: 0;
+  text-align: center;
+}
+
 footer {
   background-color: #004aad;
   color: white;
