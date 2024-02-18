@@ -30,6 +30,8 @@ main a {
 section {
   display: grid;
   grid-template-columns: 50% 50%;
+  column-gap: 10px;
+  padding: 10px;
 }
 
 main a:hover {
