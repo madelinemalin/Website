@@ -26,6 +26,7 @@ main a {
 
 article {
   border-width: 1px;
+  border-radius: 10px;
   border-style: solid;
   border-color: #74776b;
   margin: 10px;
