@@ -46,6 +46,10 @@ figure {
   text-align: center;
 }
 
+figure img {
+  max-width: 100%;
+}
+
 nav {
   text-align: center;
   
