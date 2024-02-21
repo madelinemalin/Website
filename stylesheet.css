@@ -55,7 +55,9 @@ figure {
 }
 
 figure img {
+  width: 400px;
   max-width: 100%;
+  height: auto;
 }
 
 nav {
