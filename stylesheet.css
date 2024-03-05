@@ -1,15 +1,15 @@
 body {
   margin: 0;
-  font-family: "The Seasons", Juana, Ethereal, "URW Americana";
+  font-family: Montserrat, sans-serif;
 }
 
 header {
   background-color: #f6f4ef;
   color: #004aad;
   text-align: center;
-  padding: 50px;
+  padding: 80px 0;
   font-size: 48px;
-  font-family: "The Seasons", Juana, Ethereal, "URW Americana";
+  text-transform: uppercase;
 }
 
 header img {
@@ -18,10 +18,61 @@ header img {
   border-radius: 50px;
 }
 
-main {
-  background-color: white;
-  color: black;
+img.photo {
+  border-radius: 50%;
+  max-width: 150px;
+  height: auto;
 }
+
+.name {
+  font-family: 'The Seasons', 'Crimson Pro', serif;
+  font-size: 50px;
+  letter-spacing: 6px;
+  margin: 40px 0;
+  
+
+}
+  .name a {
+    background-color: #f6f4ef;
+    color: #004aad;
+    text-decoration: none;
+  }
+div.tagline {
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+nav {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 1em 0;
+  text-align: center;
+}
+  nav a {
+    color: midnightblue;
+    padding: 1em;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: ghostwhite;
+    color: royalblue;
+  }
+
+main {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+      div.infoboxes > * {
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        border-radius: .5em;
+        padding: 1em;
+        
+        margin: 1em;
+      }
+  
+
 
 main a {
   color: #004aad;
@@ -69,7 +120,7 @@ footer {
   background-color: #004aad;
   color: white;
   text-align: center;
-  padding: 50px;
+  padding: 40px 0;
 }
 
 footer a {
@@ -82,8 +133,21 @@ footer a:hover {
 
 @media only screen and (min-width: 800px) {
 
-  main {
-    padding-left: 5%;
-    padding-right: 5%;
+  .name {
+    background-image: linear-gradient(transparent, transparent 50%,
+  #004aad 50%, #004aad 51%, transparent 51%, transparent 100%);
+}
+  .name a {
+    padding: 0 20%;
+  }
+
+div.infoboxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
+} 
+  div.infoboxes > * {
+    margin: 0; /* undo the margin from above */
   }
 }
